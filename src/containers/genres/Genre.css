@@ -1,0 +1,23 @@
+.genres_sections {
+  padding: 30px 0px;
+}
+.genre_box {
+  width: 100%;
+  height: 90px;
+  border: 2px solid #009c7c;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  background: #323232;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.genre_box:hover {
+  background: #009c7c;
+  border-color: #009c7c;
+}

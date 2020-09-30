@@ -1,0 +1,15 @@
+.header_ {
+  background: #282828;
+  padding: 25px 0px;
+}
+.logo_block {
+  width: 40px;
+  height: 40px;
+}
+.nav_li {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #009c7c;
+}

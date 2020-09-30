@@ -1,0 +1,9 @@
+.card_wrapper {
+  padding: 30px 0px;
+}
+.now_playng_title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2em;
+  color: #009c7c;
+}
