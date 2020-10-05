@@ -9,6 +9,8 @@ import MovieDetails from './components/movie/MovieDetails';
 import Upcoming from './containers/upcoming/Upcoming';
 import Genres from './containers/genres/Genres';
 import GenresList from './containers/genres/GenresList';
+import Search from './containers/search/Search';
+
 const App = () => {
   return (
     <div className='App'>
@@ -18,6 +20,7 @@ const App = () => {
           <Route exact path='/' component={Dashboard} />
           <Route exact path='/nowplayng' component={NowPlayng} />
           <Route exact path='/upcoming' component={Upcoming} />
+          <Route exact path='/search' component={Search} />
           <Route exact path='/genres' component={Genres} />
           <Route exact path='/movie/:id' component={MovieDetails} />
           <Route exact path='/genres/:type/:id' component={GenresList} />

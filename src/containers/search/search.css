@@ -1,0 +1,53 @@
+.search_section {
+  padding: 30px 0px;
+}
+.search_title {
+  text-align: center;
+  color: #009c7c;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.search_box {
+  width: 70%;
+  margin: 20px auto;
+}
+.search_box form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search_box input {
+  outline: none;
+  border: 1px solid #009c7c;
+  border-radius: 10px;
+  background: transparent;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+.search_box button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: #009c7c;
+  color: #ffffff;
+  padding: 10px;
+  width: 50%;
+  margin-left: 15px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.movie_result_title {
+  text-align: center;
+  color: #009c7c;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.error_report {
+  text-align: center;
+  color: #f44336;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
